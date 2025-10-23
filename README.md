@@ -189,3 +189,4 @@ En el calendario semanal se señalan “Videos base” por semana con referencia
 - Solicitar **code review** final y un **plan de mejora a 90 días** (temas a profundizar, deudas técnicas, nuevas features).
 
 # touch
+Prueba de ruleset: merge solo con CI OK
