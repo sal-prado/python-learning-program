@@ -1,0 +1,462 @@
+version: 1
+collections:
+    fundamentos:
+        - id: serie4_v1
+          title: "Serie 4 · Video 1/4 — Fundamentos"
+          url: "https://www.youtube.com/watch?v=BRGZiD5RJrU"
+          topics:
+              [
+                  "instalacion",
+                  "tipos",
+                  "control_flujo",
+                  "estructuras",
+                  "funciones",
+                  "match_case",
+              ]
+          blocks: ["B1", "B2"]
+          weeks: ["S1", "S3", "S4"]
+          author: "Curso en español"
+          lang: "es"
+          timestamps: {}
+
+        - id: serie4_v2
+          title: "Serie 4 · Video 2/4 — POO, módulos, decoradores, generadores"
+          url: "https://www.youtube.com/watch?v=EuyAAPx21Cs"
+          topics:
+              [
+                  "poo",
+                  "modulos",
+                  "venv",
+                  "pip",
+                  "decoradores",
+                  "generadores",
+                  "debug",
+                  "doc",
+              ]
+          blocks: ["B3"]
+          weeks: ["S10", "S11", "S12"]
+          author: "Curso en español"
+          lang: "es"
+          timestamps: {}
+
+        - id: serie4_v3
+          title: "Serie 4 · Video 3/4 — Tkinter GUI completo"
+          url: "https://www.youtube.com/watch?v=NqEtAaQsC9M"
+          topics:
+              [
+                  "tkinter",
+                  "gui",
+                  "eventos",
+                  "layouts",
+                  "dialogos",
+                  "treeview",
+                  "notebook",
+                  "ttk",
+              ]
+          blocks: ["B5B"]
+          weeks: ["S19", "S20"]
+          author: "Curso en español"
+          lang: "es"
+          timestamps: {}
+
+        - id: serie4_v4
+          title: "Serie 4 · Video 4/4 — MySQL + Python + App GUI (CRUD por etapas)"
+          url: "https://www.youtube.com/watch?v=Ca6BOvW6ZMM"
+          topics:
+              ["mysql", "crud", "backup", "vistas", "joins", "customtkinter"]
+          blocks: ["B5B"]
+          weeks: ["S21", "S22", "S23", "S24"]
+          author: "Curso en español"
+          lang: "es"
+          timestamps: {}
+
+        - id: playlist_desde_cero
+          title: "Playlist — Python desde cero (micro-lecciones)"
+          url: "https://www.youtube.com/playlist?list=PLZPZq0r_RZOOkUQbat8LyQii36cJf2SWT"
+          topics:
+              [
+                  "fundamentos",
+                  "mini_proyectos",
+                  "estructuras",
+                  "poo",
+                  "tkinter",
+                  "threads",
+                  "processes",
+              ]
+          blocks: ["B1", "B2", "B3"]
+          weeks: ["S1", "S3", "S4", "S5", "S6", "S7", "S8"]
+          author: "Bro Code"
+          lang: "en"
+          timestamps: {}
+
+        - id: curso_largo
+          title: "Curso largo — Bro Code (12h, PyQt5 y APIs)"
+          url: "https://www.youtube.com/watch?v=ix9cRaBkVe0"
+          topics:
+              [
+                  "fundamentos",
+                  "decoradores",
+                  "poo",
+                  "file_io",
+                  "fechas",
+                  "threads",
+                  "apis",
+                  "pyqt5",
+              ]
+          blocks: ["B1", "B2", "B3", "B5B"]
+          weeks: ["S1", "S3", "S10", "S11", "S17", "S18"]
+          author: "Bro Code"
+          lang: "en"
+          timestamps:
+              decoradores: "08:07:33"
+              pyqt5_intro: "09:22:19"
+
+    web_backend:
+        - id: fundamentos_es
+          title: "Fundamentos de Python (curso base en español)"
+          url: "https://www.youtube.com/watch?v=Kp4Mvapo5kc"
+          topics: ["fundamentos", "estructuras", "funciones", "poo_basica"]
+          blocks: ["B1", "B2"]
+          weeks: ["S1", "S3"]
+          lang: "es"
+          author: "Curso en español"
+
+        - id: intermedio_es
+          title: "Python intermedio — dates, comprehensions, lambdas, regex, archivos, paquetes"
+          url: "https://www.youtube.com/watch?v=TbcEqkabAWU"
+          topics:
+              [
+                  "datetime",
+                  "list_comprehension",
+                  "lambdas",
+                  "hof",
+                  "errores",
+                  "file_io",
+                  "regex",
+                  "paquetes",
+              ]
+          blocks: ["B2", "B3"]
+          weeks: ["S6", "S7", "S8", "S10"]
+          lang: "es"
+          author: "Curso en español"
+
+        - id: fastapi_full
+          title: "FastAPI — CRUD, Routers, OAuth2/JWT, Mongo/Atlas"
+          url: "https://www.youtube.com/watch?v=_y9qQZXE24A"
+          topics:
+              [
+                  "fastapi",
+                  "crud",
+                  "routers",
+                  "auth",
+                  "oauth2",
+                  "jwt",
+                  "mongodb",
+                  "atlas",
+              ]
+          blocks: ["B5A"]
+          weeks: ["S19", "S20", "S21"]
+          lang: "es"
+          author: "Curso en español"
+
+        - id: web_ui_python
+          title: "Web con Python — UI/maquetación/estilos"
+          url: "https://www.youtube.com/watch?v=n2YrGsXJC6Y"
+          topics:
+              [
+                  "ui",
+                  "maquetacion",
+                  "estilos",
+                  "responsive",
+                  "accesibilidad",
+                  "deploy",
+              ]
+          blocks: ["B5A"]
+          weeks: ["S19"]
+          lang: "es"
+          author: "Curso en español"
+
+        - id: web_avanzado
+          title: "Web avanzado — Docker, CORS, CI/CD, Supabase/PostgreSQL, realtime"
+          url: "https://www.youtube.com/watch?v=bNy8OZJfA6I"
+          topics:
+              [
+                  "docker",
+                  "cors",
+                  "ci_cd",
+                  "github_actions",
+                  "infra",
+                  "supabase",
+                  "postgresql",
+                  "realtime",
+              ]
+          blocks: ["B5A"]
+          weeks: ["S22", "S23", "S24"]
+          lang: "es"
+          author: "Curso en español"
+
+    escritorio_bd:
+        - id: tkinter_full
+          title: "Tkinter completo — GUI widgets/eventos/layouts"
+          url: "https://www.youtube.com/watch?v=NqEtAaQsC9M"
+          topics:
+              [
+                  "tkinter",
+                  "widgets",
+                  "eventos",
+                  "layouts",
+                  "ttk",
+                  "dialogos",
+                  "treeview",
+                  "notebook",
+              ]
+          blocks: ["B5B"]
+          weeks: ["S19", "S20"]
+          lang: "es"
+          author: "Curso en español"
+
+        - id: mysql_gui
+          title: "MySQL + Python + App GUI (CRUD por etapas)"
+          url: "https://www.youtube.com/watch?v=Ca6BOvW6ZMM"
+          topics:
+              ["mysql", "crud", "backup", "vistas", "joins", "customtkinter"]
+          blocks: ["B5B"]
+          weeks: ["S21", "S22", "S23", "S24"]
+          lang: "es"
+          author: "Curso en español"
+
+        - id: pyqt5_brocode
+          title: "PyQt5 (segmentos del curso largo)"
+          url: "https://www.youtube.com/watch?v=ix9cRaBkVe0"
+          topics: ["pyqt5", "layouts", "estilos", "inputs", "mini_apps"]
+          blocks: ["B5B"]
+          weeks: ["S17", "S18"]
+          lang: "en"
+          author: "Bro Code"
+          timestamps:
+              pyqt5_intro: "09:22:19"
+
+    otras:
+        - id: playlist_alternativa_fundamentos
+          title: "Playlist alternativa de fundamentos (español)"
+          url: "https://www.youtube.com/playlist?list=PLyvsggKtwbLW1j0d5yaCkRF9Axpdlhsxz"
+          topics: ["fundamentos", "estructuras", "poo"]
+          blocks: ["B1", "B2"]
+          weeks: ["S1", "S3", "S4"]
+          lang: "es"
+          author: "Otro autor"
+    ejercicios:
+        - id: yt_twt_9h_projects
+          title: "9 HOURS of Python Projects - From Beginner to Advanced"
+          author: "Tech With Tim"
+          year: 2024
+          lang: "en"
+          url: "https://www.youtube.com/watch?v=NpmFbWO6HPU"
+          access: public
+          difficulty: mixed # beginner | intermediate | advanced | mixed
+          topics:
+              [
+                  "katas",
+                  "juegos",
+                  "passwords",
+                  "turtle",
+                  "wpm",
+                  "automatizacion",
+                  "apis",
+                  "graficos",
+                  "algoritmos",
+              ]
+          blocks: ["B1", "B2", "B3"]
+          weeks: ["S4", "S7", "S8", "S9", "S10", "S11", "S12"]
+          timestamps:
+              - label: "Quiz Game (easy)"
+                at: "00:01:46"
+              - label: "Number Guess (easy)"
+                at: "00:22:00"
+              - label: "RPS (easy)"
+                at: "00:39:49"
+              - label: "Password Manager (med)"
+                at: "01:06:47"
+              - label: "Slot Machine (med)"
+                at: "02:28:02"
+              - label: "WPM Test (med)"
+                at: "04:13:09"
+              - label: "Shortest Path (adv)"
+                at: "05:39:16"
+
+        - id: yt_twt_learned_by_building
+          title: "I Learned Python By Building These Projects - Tutorial for Beginners"
+          author: "Tech With Tim"
+          year: 2025
+          lang: "en"
+          url: "https://www.youtube.com/watch?v=ehD6tdxmjDU"
+          access: public
+          difficulty: beginner
+          topics: ["quiz", "passwords", "todo", "modularizacion", "io"]
+          blocks: ["B1"]
+          weeks: ["S3"]
+          timestamps:
+              - label: "Trivia Game"
+                at: "00:02:19"
+              - label: "Password Generator"
+                at: "00:18:49"
+              - label: "To-Do List"
+                at: "00:38:55"
+
+        - id: yt_mosh_projects_beginners
+          title: "Python Projects for Beginners – Master Problem-Solving!"
+          author: "Mosh Hamedani"
+          year: 2024
+          lang: "en"
+          url: "https://www.youtube.com/watch?v=yVl_G-F7m8c"
+          access: public
+          difficulty: beginner
+          topics: ["juegos", "refactor", "qr", "modulos"]
+          blocks: ["B1"]
+          weeks: ["S2"]
+          timestamps:
+              - label: "Dice"
+                at: "00:04:14"
+              - label: "Number Guess"
+                at: "10:31"
+              - label: "RPS"
+                at: "18:14"
+              - label: "QR Generator"
+                at: "45:28"
+
+        - id: yt_brocode_projects_3h
+          title: "Python Projects for Beginners"
+          author: "Bro Code"
+          year: 2024
+          lang: "en"
+          url: "https://www.youtube.com/watch?v=4wGuB3oAKc4"
+          access: public
+          difficulty: mixed
+          topics:
+              [
+                  "calculadora",
+                  "conversores",
+                  "juegos",
+                  "validadores",
+                  "reloj",
+                  "apis",
+                  "encriptacion",
+              ]
+          blocks: ["B1", "B2"]
+          weeks: ["S3", "S5"]
+          timestamps:
+              - label: "Calculator"
+                at: "00:00:26"
+              - label: "Shopping Cart"
+                at: "00:31:32"
+              - label: "Quiz (intermediate)"
+                at: "00:38:46"
+              - label: "Credit Card Validator"
+                at: "01:32:58"
+              - label: "Weather App (API)"
+                at: "03:27:04"
+
+        - id: yt_fcc_20_beg_projects
+          title: "20 Beginner Python Projects"
+          author: "freeCodeCamp.org (CodeWithTomi)"
+          year: 2022
+          lang: "en"
+          url: "https://www.youtube.com/watch?v=pdy3nh1tn6I"
+          access: public
+          difficulty: beginner
+          topics:
+              [
+                  "email",
+                  "calculadora",
+                  "qr",
+                  "automation",
+                  "web_scraping",
+                  "opencv",
+                  "graficas",
+                  "conversores",
+              ]
+          blocks: ["B1", "B2"]
+          weeks: ["S2", "S4"]
+
+        - id: yt_50_proyectos_5h
+          title: "50 Proyectos con Python en 5 Horas – ¡Aprende Programando!"
+          author: "Varios (YouTube)"
+          year: 2025
+          lang: "es"
+          url: "https://www.youtube.com/watch?v=4iMkkZasTPw&t=23s"
+          access: public
+          difficulty: mixed
+          topics:
+              [
+                  "voz",
+                  "traduccion",
+                  "email",
+                  "qr",
+                  "web_scraping",
+                  "bots",
+                  "flask",
+                  "excel",
+                  "pruebas",
+                  "juegos",
+                  "seguridad",
+              ]
+          blocks: ["B4", "B5A", "B5B"]
+          weeks:
+              [
+                  "S13",
+                  "S14",
+                  "S15",
+                  "S16",
+                  "S17",
+                  "S18",
+                  "S19",
+                  "S20",
+                  "S21",
+                  "S22",
+                  "S23",
+                  "S24",
+              ]
+          notes: "Contiene temas sensibles (keylogger/gusano/bots). Usar con fines educativos y éticos; no replicar software malicioso."
+
+        - id: yt_7_automatizacion_2025
+          title: "7 Proyectos de Automatización con Python para 2025"
+          author: "Código Espinoza"
+          year: 2024
+          lang: "es"
+          url: "https://www.youtube.com/watch?v=a3ouEh6WMNw"
+          access: public
+          difficulty: intermediate
+          topics:
+              [
+                  "pandas",
+                  "word",
+                  "pdf",
+                  "tts",
+                  "streamlit",
+                  "openai",
+                  "langchain",
+                  "webcam",
+              ]
+          blocks: ["B4"]
+          weeks: ["S13", "S14", "S15"]
+
+        - id: yt_11_tkinter_gui
+          title: "11 Proyectos con Interfaz Gráfica en Python"
+          author: "Código Espinoza"
+          year: 2024
+          lang: "es"
+          url: "https://www.youtube.com/watch?v=RaEatqpugCk"
+          access: public
+          difficulty: intermediate
+          topics:
+              [
+                  "tkinter",
+                  "gui",
+                  "ttk",
+                  "formularios_excel",
+                  "juegos",
+                  "cronometro",
+                  "tts",
+              ]
+          blocks: ["B5B"]
+          weeks: ["S19", "S20", "S21"]

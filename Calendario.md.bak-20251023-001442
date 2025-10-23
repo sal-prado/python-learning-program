@@ -1,0 +1,762 @@
+# Calendario del Programa (24 semanas)
+
+> Semanas 1–12 = Núcleo del lenguaje (Bloques 0–3).  
+> Semanas 13–20 = Elige una rama (A: Web/Backend & DevOps, B: Escritorio + BD).  
+> Semanas 21–24 = Integrador + Portafolio + Revisión final.
+
+---
+
+## Semanas 1–12 · Núcleo del lenguaje
+
+### S1 — Entorno, sintaxis y tipos
+
+<!-- BOOKS_BASE:S1 START -->
+### Lecturas base — S1
+
+- [Automate the Boring Stuff with Python (2nd ed.)](https://drive.google.com/file/d/1MPNb5Gq_24c7V9u0n-Sr_2gseUPvepH8/view?usp=drive_link) — Al Sweigart (2020, en) — temas: fundamentos, control_flujo, funciones, listas_diccionarios, strings, regex, file_io, organizacion_archivos, depuracion, web_scraping, excel, google_sheets, pdf_word, csv_json, fechas_tareas, email_sms, imagenes, gui_automation
+- [Python Crash Course (3rd ed.)](https://drive.google.com/file/d/1LjPlqi8tAlipYzdh-oIyoRSo6dt-glKR/view?usp=drive_link) — Eric Matthes (2023, en) — temas: fundamentos, pruebas, file_io, poo_basica, pygame, visualizacion_datos, matplotlib, plotly, apis, django, despliegue
+- [Python Programming: An Introduction to Computer Science (3rd ed.)](https://drive.google.com/file/d/1kOxzFbyKPbWWu4ap1FUxUgH6ICpMd_YD/view?usp=drive_link) — John M. Zelle (2017, en) — temas: cs_intro, diseno_algoritmico, numeros, graficos, secuencias, funciones, decisiones, bucles, simulacion, poo_basica, colecciones, diseno_oo, recursion
+
+<!-- BOOKS_BASE:S1 END -->
+
+
+<!-- VIDEOS_BASE:S1 START -->
+### Videos base — S1
+
+- [Curso largo — Bro Code (12h, PyQt5 y APIs)](https://www.youtube.com/watch?v=ix9cRaBkVe0) — temas: fundamentos, decoradores, poo, file_io, fechas, threads, apis, pyqt5 · decoradores: 08:07:33, pyqt5_intro: 09:22:19
+- [Fundamentos de Python (curso base en español)](https://www.youtube.com/watch?v=Kp4Mvapo5kc) — temas: fundamentos, estructuras, funciones, poo_basica
+- [Playlist alternativa de fundamentos (español)](https://www.youtube.com/playlist?list=PLyvsggKtwbLW1j0d5yaCkRF9Axpdlhsxz) — temas: fundamentos, estructuras, poo
+- [Playlist — Python desde cero (micro-lecciones)](https://www.youtube.com/playlist?list=PLZPZq0r_RZOOkUQbat8LyQii36cJf2SWT) — temas: fundamentos, mini_proyectos, estructuras, poo, tkinter, threads, processes
+- [Serie 4 · Video 1/4 — Fundamentos](https://www.youtube.com/watch?v=BRGZiD5RJrU) — temas: instalacion, tipos, control_flujo, estructuras, funciones, match_case
+
+<!-- VIDEOS_BASE:S1 END -->
+
+
+
+
+- Metas: instalar 3.12, VS Code, Git; `venv`; `print/input` y tipos.
+- 3 ejercicios: eco, suma/promedio, conversor minutos↔horas.
+- Mini-proyecto: “Hola Agenda”.
+- Criterio salida: repo `python-boot`, `venv`, `hello.py` corre.
+
+### S2 — Strings y operadores
+
+<!-- BOOKS_BASE:S2 START -->
+### Lecturas base — S2
+
+- [Automate the Boring Stuff with Python (2nd ed.)](https://drive.google.com/file/d/1MPNb5Gq_24c7V9u0n-Sr_2gseUPvepH8/view?usp=drive_link) — Al Sweigart (2020, en) — temas: fundamentos, control_flujo, funciones, listas_diccionarios, strings, regex, file_io, organizacion_archivos, depuracion, web_scraping, excel, google_sheets, pdf_word, csv_json, fechas_tareas, email_sms, imagenes, gui_automation
+- [Python Crash Course (3rd ed.)](https://drive.google.com/file/d/1LjPlqi8tAlipYzdh-oIyoRSo6dt-glKR/view?usp=drive_link) — Eric Matthes (2023, en) — temas: fundamentos, pruebas, file_io, poo_basica, pygame, visualizacion_datos, matplotlib, plotly, apis, django, despliegue
+- [Python Programming: An Introduction to Computer Science (3rd ed.)](https://drive.google.com/file/d/1kOxzFbyKPbWWu4ap1FUxUgH6ICpMd_YD/view?usp=drive_link) — John M. Zelle (2017, en) — temas: cs_intro, diseno_algoritmico, numeros, graficos, secuencias, funciones, decisiones, bucles, simulacion, poo_basica, colecciones, diseno_oo, recursion
+
+<!-- BOOKS_BASE:S2 END -->
+
+
+<!-- VIDEOS_BASE:S2 START -->
+### Videos base — S2
+
+- [20 Beginner Python Projects](https://www.youtube.com/watch?v=pdy3nh1tn6I) — temas: email, calculadora, qr, automation, web_scraping, opencv, graficas, conversores
+- [Playlist alternativa de fundamentos (español)](https://www.youtube.com/playlist?list=PLyvsggKtwbLW1j0d5yaCkRF9Axpdlhsxz) — temas: fundamentos, estructuras, poo
+- [Python Projects for Beginners – Master Problem-Solving!](https://www.youtube.com/watch?v=yVl_G-F7m8c) — temas: juegos, refactor, qr, modulos
+
+<!-- VIDEOS_BASE:S2 END -->
+
+
+
+
+
+
+
+
+
+- Metas: `str` (métodos/slicing), f-strings, aritméticos y lógicos.
+- Ejercicios: normalizador, contraseña, recibo.
+- Mini-proyecto: Madlibs CLI.
+
+### S3 — Control de flujo
+
+<!-- BOOKS_BASE:S3 START -->
+### Lecturas base — S3
+
+- [Automate the Boring Stuff with Python (2nd ed.)](https://drive.google.com/file/d/1MPNb5Gq_24c7V9u0n-Sr_2gseUPvepH8/view?usp=drive_link) — Al Sweigart (2020, en) — temas: fundamentos, control_flujo, funciones, listas_diccionarios, strings, regex, file_io, organizacion_archivos, depuracion, web_scraping, excel, google_sheets, pdf_word, csv_json, fechas_tareas, email_sms, imagenes, gui_automation
+- [Python Crash Course (3rd ed.)](https://drive.google.com/file/d/1LjPlqi8tAlipYzdh-oIyoRSo6dt-glKR/view?usp=drive_link) — Eric Matthes (2023, en) — temas: fundamentos, pruebas, file_io, poo_basica, pygame, visualizacion_datos, matplotlib, plotly, apis, django, despliegue
+- [Python Programming: An Introduction to Computer Science (3rd ed.)](https://drive.google.com/file/d/1kOxzFbyKPbWWu4ap1FUxUgH6ICpMd_YD/view?usp=drive_link) — John M. Zelle (2017, en) — temas: cs_intro, diseno_algoritmico, numeros, graficos, secuencias, funciones, decisiones, bucles, simulacion, poo_basica, colecciones, diseno_oo, recursion
+
+<!-- BOOKS_BASE:S3 END -->
+
+
+<!-- VIDEOS_BASE:S3 START -->
+### Videos base — S3
+
+- [Curso largo — Bro Code (12h, PyQt5 y APIs)](https://www.youtube.com/watch?v=ix9cRaBkVe0) — temas: fundamentos, decoradores, poo, file_io, fechas, threads, apis, pyqt5 · decoradores: 08:07:33, pyqt5_intro: 09:22:19
+- [Fundamentos de Python (curso base en español)](https://www.youtube.com/watch?v=Kp4Mvapo5kc) — temas: fundamentos, estructuras, funciones, poo_basica
+- [I Learned Python By Building These Projects - Tutorial for Beginners](https://www.youtube.com/watch?v=ehD6tdxmjDU) — temas: quiz, passwords, todo, modularizacion, io
+- [Playlist alternativa de fundamentos (español)](https://www.youtube.com/playlist?list=PLyvsggKtwbLW1j0d5yaCkRF9Axpdlhsxz) — temas: fundamentos, estructuras, poo
+- [Playlist — Python desde cero (micro-lecciones)](https://www.youtube.com/playlist?list=PLZPZq0r_RZOOkUQbat8LyQii36cJf2SWT) — temas: fundamentos, mini_proyectos, estructuras, poo, tkinter, threads, processes
+- [Python Projects for Beginners](https://www.youtube.com/watch?v=4wGuB3oAKc4) — temas: calculadora, conversores, juegos, validadores, reloj, apis, encriptacion
+- [Serie 4 · Video 1/4 — Fundamentos](https://www.youtube.com/watch?v=BRGZiD5RJrU) — temas: instalacion, tipos, control_flujo, estructuras, funciones, match_case
+
+<!-- VIDEOS_BASE:S3 END -->
+
+
+
+
+
+
+
+
+
+
+
+- Metas: `if/elif/else`, condicionales, `match/case`.
+- Ejercicios: IMC, impuesto, enrutador.
+- Mini-proyecto: cronómetro CLI (countdown).
+
+### S4 — Estructuras de datos
+
+<!-- BOOKS_BASE:S4 START -->
+### Lecturas base — S4
+
+- [Automate the Boring Stuff with Python (2nd ed.)](https://drive.google.com/file/d/1MPNb5Gq_24c7V9u0n-Sr_2gseUPvepH8/view?usp=drive_link) — Al Sweigart (2020, en) — temas: fundamentos, control_flujo, funciones, listas_diccionarios, strings, regex, file_io, organizacion_archivos, depuracion, web_scraping, excel, google_sheets, pdf_word, csv_json, fechas_tareas, email_sms, imagenes, gui_automation
+- [Python Crash Course (3rd ed.)](https://drive.google.com/file/d/1LjPlqi8tAlipYzdh-oIyoRSo6dt-glKR/view?usp=drive_link) — Eric Matthes (2023, en) — temas: fundamentos, pruebas, file_io, poo_basica, pygame, visualizacion_datos, matplotlib, plotly, apis, django, despliegue
+- [Python Programming: An Introduction to Computer Science (3rd ed.)](https://drive.google.com/file/d/1kOxzFbyKPbWWu4ap1FUxUgH6ICpMd_YD/view?usp=drive_link) — John M. Zelle (2017, en) — temas: cs_intro, diseno_algoritmico, numeros, graficos, secuencias, funciones, decisiones, bucles, simulacion, poo_basica, colecciones, diseno_oo, recursion
+
+<!-- BOOKS_BASE:S4 END -->
+
+
+<!-- VIDEOS_BASE:S4 START -->
+### Videos base — S4
+
+- [20 Beginner Python Projects](https://www.youtube.com/watch?v=pdy3nh1tn6I) — temas: email, calculadora, qr, automation, web_scraping, opencv, graficas, conversores
+- [9 HOURS of Python Projects - From Beginner to Advanced](https://www.youtube.com/watch?v=NpmFbWO6HPU) — temas: katas, juegos, passwords, turtle, wpm, automatizacion, apis, graficos, algoritmos
+- [Playlist alternativa de fundamentos (español)](https://www.youtube.com/playlist?list=PLyvsggKtwbLW1j0d5yaCkRF9Axpdlhsxz) — temas: fundamentos, estructuras, poo
+- [Playlist — Python desde cero (micro-lecciones)](https://www.youtube.com/playlist?list=PLZPZq0r_RZOOkUQbat8LyQii36cJf2SWT) — temas: fundamentos, mini_proyectos, estructuras, poo, tkinter, threads, processes
+- [Serie 4 · Video 1/4 — Fundamentos](https://www.youtube.com/watch?v=BRGZiD5RJrU) — temas: instalacion, tipos, control_flujo, estructuras, funciones, match_case
+
+<!-- VIDEOS_BASE:S4 END -->
+
+
+
+
+
+
+
+
+
+- Metas: listas, tuplas, sets, dicts.
+- Ejercicios: carrito, phonebook, deduplicador.
+- Mini-proyecto: Quiz Game.
+
+### S5 — Funciones y módulos
+
+<!-- BOOKS_BASE:S5 START -->
+### Lecturas base — S5
+
+- [Python Crash Course (3rd ed.)](https://drive.google.com/file/d/1LjPlqi8tAlipYzdh-oIyoRSo6dt-glKR/view?usp=drive_link) — Eric Matthes (2023, en) — temas: fundamentos, pruebas, file_io, poo_basica, pygame, visualizacion_datos, matplotlib, plotly, apis, django, despliegue
+- [Python Programming: An Introduction to Computer Science (3rd ed.)](https://drive.google.com/file/d/1kOxzFbyKPbWWu4ap1FUxUgH6ICpMd_YD/view?usp=drive_link) — John M. Zelle (2017, en) — temas: cs_intro, diseno_algoritmico, numeros, graficos, secuencias, funciones, decisiones, bucles, simulacion, poo_basica, colecciones, diseno_oo, recursion
+
+<!-- BOOKS_BASE:S5 END -->
+
+
+<!-- VIDEOS_BASE:S5 START -->
+### Videos base — S5
+
+- [Playlist — Python desde cero (micro-lecciones)](https://www.youtube.com/playlist?list=PLZPZq0r_RZOOkUQbat8LyQii36cJf2SWT) — temas: fundamentos, mini_proyectos, estructuras, poo, tkinter, threads, processes
+- [Python Projects for Beginners](https://www.youtube.com/watch?v=4wGuB3oAKc4) — temas: calculadora, conversores, juegos, validadores, reloj, apis, encriptacion
+
+<!-- VIDEOS_BASE:S5 END -->
+
+
+
+
+
+
+
+
+
+- Metas: args por defecto/clave, `*args/**kwargs`, módulos, `if __name__ == "__main__"`.
+- Ejercicios: formatter, agregador, dispatch.
+- Mini-proyecto: paquete `util_text/`.
+
+### S6 — POO I
+
+<!-- BOOKS_BASE:S6 START -->
+### Lecturas base — S6
+
+- [Automate the Boring Stuff with Python (2nd ed.)](https://drive.google.com/file/d/1MPNb5Gq_24c7V9u0n-Sr_2gseUPvepH8/view?usp=drive_link) — Al Sweigart (2020, en) — temas: fundamentos, control_flujo, funciones, listas_diccionarios, strings, regex, file_io, organizacion_archivos, depuracion, web_scraping, excel, google_sheets, pdf_word, csv_json, fechas_tareas, email_sms, imagenes, gui_automation
+- [Python Crash Course (3rd ed.)](https://drive.google.com/file/d/1LjPlqi8tAlipYzdh-oIyoRSo6dt-glKR/view?usp=drive_link) — Eric Matthes (2023, en) — temas: fundamentos, pruebas, file_io, poo_basica, pygame, visualizacion_datos, matplotlib, plotly, apis, django, despliegue
+- [Python Programming: An Introduction to Computer Science (3rd ed.)](https://drive.google.com/file/d/1kOxzFbyKPbWWu4ap1FUxUgH6ICpMd_YD/view?usp=drive_link) — John M. Zelle (2017, en) — temas: cs_intro, diseno_algoritmico, numeros, graficos, secuencias, funciones, decisiones, bucles, simulacion, poo_basica, colecciones, diseno_oo, recursion
+
+<!-- BOOKS_BASE:S6 END -->
+
+
+<!-- VIDEOS_BASE:S6 START -->
+### Videos base — S6
+
+- [Playlist — Python desde cero (micro-lecciones)](https://www.youtube.com/playlist?list=PLZPZq0r_RZOOkUQbat8LyQii36cJf2SWT) — temas: fundamentos, mini_proyectos, estructuras, poo, tkinter, threads, processes
+- [Python intermedio — dates, comprehensions, lambdas, regex, archivos, paquetes](https://www.youtube.com/watch?v=TbcEqkabAWU) — temas: datetime, list_comprehension, lambdas, hof, errores, file_io, regex, paquetes
+
+<!-- VIDEOS_BASE:S6 END -->
+
+
+
+
+
+
+
+
+- Metas: clases, `__init__`, `__str__/__repr__`.
+- Ejercicios: Producto, Carrito, Ticket.
+- Mini-proyecto: Tienda CLI.
+
+### S7 — POO II
+
+<!-- BOOKS_BASE:S7 START -->
+### Lecturas base — S7
+
+- [Automate the Boring Stuff with Python (2nd ed.)](https://drive.google.com/file/d/1MPNb5Gq_24c7V9u0n-Sr_2gseUPvepH8/view?usp=drive_link) — Al Sweigart (2020, en) — temas: fundamentos, control_flujo, funciones, listas_diccionarios, strings, regex, file_io, organizacion_archivos, depuracion, web_scraping, excel, google_sheets, pdf_word, csv_json, fechas_tareas, email_sms, imagenes, gui_automation
+- [Python Crash Course (3rd ed.)](https://drive.google.com/file/d/1LjPlqi8tAlipYzdh-oIyoRSo6dt-glKR/view?usp=drive_link) — Eric Matthes (2023, en) — temas: fundamentos, pruebas, file_io, poo_basica, pygame, visualizacion_datos, matplotlib, plotly, apis, django, despliegue
+- [Python Programming: An Introduction to Computer Science (3rd ed.)](https://drive.google.com/file/d/1kOxzFbyKPbWWu4ap1FUxUgH6ICpMd_YD/view?usp=drive_link) — John M. Zelle (2017, en) — temas: cs_intro, diseno_algoritmico, numeros, graficos, secuencias, funciones, decisiones, bucles, simulacion, poo_basica, colecciones, diseno_oo, recursion
+
+<!-- BOOKS_BASE:S7 END -->
+
+
+<!-- VIDEOS_BASE:S7 START -->
+### Videos base — S7
+
+- [9 HOURS of Python Projects - From Beginner to Advanced](https://www.youtube.com/watch?v=NpmFbWO6HPU) — temas: katas, juegos, passwords, turtle, wpm, automatizacion, apis, graficos, algoritmos
+- [Playlist — Python desde cero (micro-lecciones)](https://www.youtube.com/playlist?list=PLZPZq0r_RZOOkUQbat8LyQii36cJf2SWT) — temas: fundamentos, mini_proyectos, estructuras, poo, tkinter, threads, processes
+- [Python intermedio — dates, comprehensions, lambdas, regex, archivos, paquetes](https://www.youtube.com/watch?v=TbcEqkabAWU) — temas: datetime, list_comprehension, lambdas, hof, errores, file_io, regex, paquetes
+
+<!-- VIDEOS_BASE:S7 END -->
+
+
+
+
+
+
+
+
+
+- Metas: herencia, encapsulamiento, polimorfismo, abstracción, `@property`.
+- Ejercicios: Empleado/Gerente; Figura/Rect/Circ; propiedades.
+- Mini-proyecto: Nómina.
+
+### S8 — Archivos, `datetime`, regex
+
+<!-- BOOKS_BASE:S8 START -->
+### Lecturas base — S8
+
+- [Automate the Boring Stuff with Python (2nd ed.)](https://drive.google.com/file/d/1MPNb5Gq_24c7V9u0n-Sr_2gseUPvepH8/view?usp=drive_link) — Al Sweigart (2020, en) — temas: fundamentos, control_flujo, funciones, listas_diccionarios, strings, regex, file_io, organizacion_archivos, depuracion, web_scraping, excel, google_sheets, pdf_word, csv_json, fechas_tareas, email_sms, imagenes, gui_automation
+- [Python Crash Course (3rd ed.)](https://drive.google.com/file/d/1LjPlqi8tAlipYzdh-oIyoRSo6dt-glKR/view?usp=drive_link) — Eric Matthes (2023, en) — temas: fundamentos, pruebas, file_io, poo_basica, pygame, visualizacion_datos, matplotlib, plotly, apis, django, despliegue
+- [Python Programming: An Introduction to Computer Science (3rd ed.)](https://drive.google.com/file/d/1kOxzFbyKPbWWu4ap1FUxUgH6ICpMd_YD/view?usp=drive_link) — John M. Zelle (2017, en) — temas: cs_intro, diseno_algoritmico, numeros, graficos, secuencias, funciones, decisiones, bucles, simulacion, poo_basica, colecciones, diseno_oo, recursion
+
+<!-- BOOKS_BASE:S8 END -->
+
+
+<!-- VIDEOS_BASE:S8 START -->
+### Videos base — S8
+
+- [9 HOURS of Python Projects - From Beginner to Advanced](https://www.youtube.com/watch?v=NpmFbWO6HPU) — temas: katas, juegos, passwords, turtle, wpm, automatizacion, apis, graficos, algoritmos
+- [Playlist — Python desde cero (micro-lecciones)](https://www.youtube.com/playlist?list=PLZPZq0r_RZOOkUQbat8LyQii36cJf2SWT) — temas: fundamentos, mini_proyectos, estructuras, poo, tkinter, threads, processes
+- [Python intermedio — dates, comprehensions, lambdas, regex, archivos, paquetes](https://www.youtube.com/watch?v=TbcEqkabAWU) — temas: datetime, list_comprehension, lambdas, hof, errores, file_io, regex, paquetes
+
+<!-- VIDEOS_BASE:S8 END -->
+
+
+
+
+
+
+
+
+- Metas: TXT/CSV/JSON, `datetime`, `re`.
+- Ejercicios: bitácora, parser de logs, conversor de zona.
+- Mini-proyecto: Limpieza CSV.
+
+### S9 — Excepciones, depuración, doc, venv/pip
+
+<!-- BOOKS_BASE:S9 START -->
+### Lecturas base — S9
+
+- [Fluent Python (2nd ed.)](https://drive.google.com/file/d/1Anyui3y29yq4qMrpWIlTBBg-ep3hHoby/view?usp=drive_link) — Luciano Ramalho (2022, en) — temas: data_model, secuencias, diccionarios_sets, unicode_bytes, dataclass, referencias_mutabilidad, funciones_primera_clase, type_hints, decoradores_closures, protocolos_abcs, herencia, sobrecarga_operadores, generadores_corutinas, with_match_else, concurrencia, asyncio, metaprogramacion
+- [Python Programming: An Introduction to Computer Science (3rd ed.)](https://drive.google.com/file/d/1kOxzFbyKPbWWu4ap1FUxUgH6ICpMd_YD/view?usp=drive_link) — John M. Zelle (2017, en) — temas: cs_intro, diseno_algoritmico, numeros, graficos, secuencias, funciones, decisiones, bucles, simulacion, poo_basica, colecciones, diseno_oo, recursion
+
+<!-- BOOKS_BASE:S9 END -->
+
+
+<!-- VIDEOS_BASE:S9 START -->
+### Videos base — S9
+
+- [9 HOURS of Python Projects - From Beginner to Advanced](https://www.youtube.com/watch?v=NpmFbWO6HPU) — temas: katas, juegos, passwords, turtle, wpm, automatizacion, apis, graficos, algoritmos
+
+<!-- VIDEOS_BASE:S9 END -->
+
+
+
+
+
+
+
+
+- Metas: `try/except/else/finally`, `raise`, `assert`, docstrings, depurar VS Code, entornos.
+- Ejercicios: validador robusto, wrapper con logging, bug & fix.
+- Mini-proyecto: empaquetar `util_text` (pyproject).
+
+### S10 — Comprehensions, lambdas, HOF
+
+<!-- BOOKS_BASE:S10 START -->
+### Lecturas base — S10
+
+- [Fluent Python (2nd ed.)](https://drive.google.com/file/d/1Anyui3y29yq4qMrpWIlTBBg-ep3hHoby/view?usp=drive_link) — Luciano Ramalho (2022, en) — temas: data_model, secuencias, diccionarios_sets, unicode_bytes, dataclass, referencias_mutabilidad, funciones_primera_clase, type_hints, decoradores_closures, protocolos_abcs, herencia, sobrecarga_operadores, generadores_corutinas, with_match_else, concurrencia, asyncio, metaprogramacion
+- [Impractical Python Projects](https://drive.google.com/file/d/1V0B6kRW9oLKnqNTdprnOR92EoG-iNGZV/view?usp=drive_link) — Lee Vaughan (2019, en) — temas: proyectos, anagramas, cifrados, markov, geneticos, simulacion, monty_hall, finanzas_montecarlo, pygame, tkinter, matplotlib, benford, datos
+
+<!-- BOOKS_BASE:S10 END -->
+
+
+<!-- VIDEOS_BASE:S10 START -->
+### Videos base — S10
+
+- [9 HOURS of Python Projects - From Beginner to Advanced](https://www.youtube.com/watch?v=NpmFbWO6HPU) — temas: katas, juegos, passwords, turtle, wpm, automatizacion, apis, graficos, algoritmos
+- [Curso largo — Bro Code (12h, PyQt5 y APIs)](https://www.youtube.com/watch?v=ix9cRaBkVe0) — temas: fundamentos, decoradores, poo, file_io, fechas, threads, apis, pyqt5 · decoradores: 08:07:33, pyqt5_intro: 09:22:19
+- [Python intermedio — dates, comprehensions, lambdas, regex, archivos, paquetes](https://www.youtube.com/watch?v=TbcEqkabAWU) — temas: datetime, list_comprehension, lambdas, hof, errores, file_io, regex, paquetes
+- [Serie 4 · Video 2/4 — POO, módulos, decoradores, generadores](https://www.youtube.com/watch?v=EuyAAPx21Cs) — temas: poo, modulos, venv, pip, decoradores, generadores, debug, doc
+
+<!-- VIDEOS_BASE:S10 END -->
+
+
+
+
+
+
+
+
+
+- Metas: list/dict/set comprehensions, `map/filter/reduce`.
+- Ejercicios: transformaciones, filtro, agregaciones.
+- Mini-proyecto: mini-ETL CSV→JSON.
+
+### S11 — Decoradores y generadores
+
+<!-- BOOKS_BASE:S11 START -->
+### Lecturas base — S11
+
+- [Fluent Python (2nd ed.)](https://drive.google.com/file/d/1Anyui3y29yq4qMrpWIlTBBg-ep3hHoby/view?usp=drive_link) — Luciano Ramalho (2022, en) — temas: data_model, secuencias, diccionarios_sets, unicode_bytes, dataclass, referencias_mutabilidad, funciones_primera_clase, type_hints, decoradores_closures, protocolos_abcs, herencia, sobrecarga_operadores, generadores_corutinas, with_match_else, concurrencia, asyncio, metaprogramacion
+- [Impractical Python Projects](https://drive.google.com/file/d/1V0B6kRW9oLKnqNTdprnOR92EoG-iNGZV/view?usp=drive_link) — Lee Vaughan (2019, en) — temas: proyectos, anagramas, cifrados, markov, geneticos, simulacion, monty_hall, finanzas_montecarlo, pygame, tkinter, matplotlib, benford, datos
+
+<!-- BOOKS_BASE:S11 END -->
+
+
+
+<!-- VIDEOS_BASE:S11 START -->
+### Videos base — S11
+
+- [9 HOURS of Python Projects - From Beginner to Advanced](https://www.youtube.com/watch?v=NpmFbWO6HPU) — temas: katas, juegos, passwords, turtle, wpm, automatizacion, apis, graficos, algoritmos
+- [Curso largo — Bro Code (12h, PyQt5 y APIs)](https://www.youtube.com/watch?v=ix9cRaBkVe0) — temas: fundamentos, decoradores, poo, file_io, fechas, threads, apis, pyqt5 · decoradores: 08:07:33, pyqt5_intro: 09:22:19
+- [Serie 4 · Video 2/4 — POO, módulos, decoradores, generadores](https://www.youtube.com/watch?v=EuyAAPx21Cs) — temas: poo, modulos, venv, pip, decoradores, generadores, debug, doc
+
+<!-- VIDEOS_BASE:S11 END -->
+
+
+
+
+
+
+
+
+
+
+
+
+- Metas: `@decorator` (con/ sin params), `yield`, iteradores.
+- Ejercicios: `@timed`, `@retry`; `read_chunks()`.
+- Mini-proyecto: librería `toolbox/` (con tests).
+
+### S12 — Concurrencia y rendimiento
+
+<!-- BOOKS_BASE:S12 START -->
+### Lecturas base — S12
+
+- [Fluent Python (2nd ed.)](https://drive.google.com/file/d/1Anyui3y29yq4qMrpWIlTBBg-ep3hHoby/view?usp=drive_link) — Luciano Ramalho (2022, en) — temas: data_model, secuencias, diccionarios_sets, unicode_bytes, dataclass, referencias_mutabilidad, funciones_primera_clase, type_hints, decoradores_closures, protocolos_abcs, herencia, sobrecarga_operadores, generadores_corutinas, with_match_else, concurrencia, asyncio, metaprogramacion
+- [Impractical Python Projects](https://drive.google.com/file/d/1V0B6kRW9oLKnqNTdprnOR92EoG-iNGZV/view?usp=drive_link) — Lee Vaughan (2019, en) — temas: proyectos, anagramas, cifrados, markov, geneticos, simulacion, monty_hall, finanzas_montecarlo, pygame, tkinter, matplotlib, benford, datos
+
+<!-- BOOKS_BASE:S12 END -->
+
+
+<!-- VIDEOS_BASE:S12 START -->
+### Videos base — S12
+
+- [9 HOURS of Python Projects - From Beginner to Advanced](https://www.youtube.com/watch?v=NpmFbWO6HPU) — temas: katas, juegos, passwords, turtle, wpm, automatizacion, apis, graficos, algoritmos
+- [Serie 4 · Video 2/4 — POO, módulos, decoradores, generadores](https://www.youtube.com/watch?v=EuyAAPx21Cs) — temas: poo, modulos, venv, pip, decoradores, generadores, debug, doc
+
+<!-- VIDEOS_BASE:S12 END -->
+
+
+
+
+
+
+
+
+
+- Metas: `asyncio`, `threading` vs `multiprocessing`, `cProfile`, `lru_cache`.
+- Ejercicios: downloader concurrente, CPU-bound, profiling+cache.
+- Mini-proyecto: crawler concurrente.
+
+---
+
+## Semanas 13–20 · Rama A — Web/Backend & DevOps
+
+### S13 — FastAPI fundamentos
+
+<!-- BOOKS_BASE:S13 START -->
+### Lecturas base — S13
+
+- [Automate the Boring Stuff with Python (2nd ed.)](https://drive.google.com/file/d/1MPNb5Gq_24c7V9u0n-Sr_2gseUPvepH8/view?usp=drive_link) — Al Sweigart (2020, en) — temas: fundamentos, control_flujo, funciones, listas_diccionarios, strings, regex, file_io, organizacion_archivos, depuracion, web_scraping, excel, google_sheets, pdf_word, csv_json, fechas_tareas, email_sms, imagenes, gui_automation
+- [Impractical Python Projects](https://drive.google.com/file/d/1V0B6kRW9oLKnqNTdprnOR92EoG-iNGZV/view?usp=drive_link) — Lee Vaughan (2019, en) — temas: proyectos, anagramas, cifrados, markov, geneticos, simulacion, monty_hall, finanzas_montecarlo, pygame, tkinter, matplotlib, benford, datos
+
+<!-- BOOKS_BASE:S13 END -->
+
+
+<!-- VIDEOS_BASE:S13 START -->
+### Videos base — S13
+
+- [50 Proyectos con Python en 5 Horas – ¡Aprende Programando!](https://www.youtube.com/watch?v=4iMkkZasTPw&t=23s) — temas: voz, traduccion, email, qr, web_scraping, bots, flask, excel, pruebas, juegos, seguridad
+- [7 Proyectos de Automatización con Python para 2025](https://www.youtube.com/watch?v=a3ouEh6WMNw) — temas: pandas, word, pdf, tts, streamlit, openai, langchain, webcam
+
+<!-- VIDEOS_BASE:S13 END -->
+
+
+
+
+
+- Rutas, validación Pydantic. MP: “Catálogo” (GET/POST).
+
+### S14 — DB y ORM
+
+<!-- BOOKS_BASE:S14 START -->
+### Lecturas base — S14
+
+- [Automate the Boring Stuff with Python (2nd ed.)](https://drive.google.com/file/d/1MPNb5Gq_24c7V9u0n-Sr_2gseUPvepH8/view?usp=drive_link) — Al Sweigart (2020, en) — temas: fundamentos, control_flujo, funciones, listas_diccionarios, strings, regex, file_io, organizacion_archivos, depuracion, web_scraping, excel, google_sheets, pdf_word, csv_json, fechas_tareas, email_sms, imagenes, gui_automation
+- [Impractical Python Projects](https://drive.google.com/file/d/1V0B6kRW9oLKnqNTdprnOR92EoG-iNGZV/view?usp=drive_link) — Lee Vaughan (2019, en) — temas: proyectos, anagramas, cifrados, markov, geneticos, simulacion, monty_hall, finanzas_montecarlo, pygame, tkinter, matplotlib, benford, datos
+
+<!-- BOOKS_BASE:S14 END -->
+
+
+<!-- VIDEOS_BASE:S14 START -->
+### Videos base — S14
+
+- [50 Proyectos con Python en 5 Horas – ¡Aprende Programando!](https://www.youtube.com/watch?v=4iMkkZasTPw&t=23s) — temas: voz, traduccion, email, qr, web_scraping, bots, flask, excel, pruebas, juegos, seguridad
+- [7 Proyectos de Automatización con Python para 2025](https://www.youtube.com/watch?v=a3ouEh6WMNw) — temas: pandas, word, pdf, tts, streamlit, openai, langchain, webcam
+
+<!-- VIDEOS_BASE:S14 END -->
+
+
+
+
+
+- SQLAlchemy + Alembic; migraciones. MP: CRUD persistente.
+
+### S15 — Auth & Seguridad
+
+<!-- BOOKS_BASE:S15 START -->
+### Lecturas base — S15
+
+- [Automate the Boring Stuff with Python (2nd ed.)](https://drive.google.com/file/d/1MPNb5Gq_24c7V9u0n-Sr_2gseUPvepH8/view?usp=drive_link) — Al Sweigart (2020, en) — temas: fundamentos, control_flujo, funciones, listas_diccionarios, strings, regex, file_io, organizacion_archivos, depuracion, web_scraping, excel, google_sheets, pdf_word, csv_json, fechas_tareas, email_sms, imagenes, gui_automation
+- [Impractical Python Projects](https://drive.google.com/file/d/1V0B6kRW9oLKnqNTdprnOR92EoG-iNGZV/view?usp=drive_link) — Lee Vaughan (2019, en) — temas: proyectos, anagramas, cifrados, markov, geneticos, simulacion, monty_hall, finanzas_montecarlo, pygame, tkinter, matplotlib, benford, datos
+- [Python Crash Course (3rd ed.)](https://drive.google.com/file/d/1LjPlqi8tAlipYzdh-oIyoRSo6dt-glKR/view?usp=drive_link) — Eric Matthes (2023, en) — temas: fundamentos, pruebas, file_io, poo_basica, pygame, visualizacion_datos, matplotlib, plotly, apis, django, despliegue
+
+<!-- BOOKS_BASE:S15 END -->
+
+
+<!-- VIDEOS_BASE:S15 START -->
+### Videos base — S15
+
+- [50 Proyectos con Python en 5 Horas – ¡Aprende Programando!](https://www.youtube.com/watch?v=4iMkkZasTPw&t=23s) — temas: voz, traduccion, email, qr, web_scraping, bots, flask, excel, pruebas, juegos, seguridad
+- [7 Proyectos de Automatización con Python para 2025](https://www.youtube.com/watch?v=a3ouEh6WMNw) — temas: pandas, word, pdf, tts, streamlit, openai, langchain, webcam
+
+<!-- VIDEOS_BASE:S15 END -->
+
+
+
+
+- OAuth2/JWT, CORS. MP: endpoints protegidos.
+
+### S16 — Testing & Observabilidad
+
+<!-- BOOKS_BASE:S16 START -->
+### Lecturas base — S16
+
+- [Automate the Boring Stuff with Python (2nd ed.)](https://drive.google.com/file/d/1MPNb5Gq_24c7V9u0n-Sr_2gseUPvepH8/view?usp=drive_link) — Al Sweigart (2020, en) — temas: fundamentos, control_flujo, funciones, listas_diccionarios, strings, regex, file_io, organizacion_archivos, depuracion, web_scraping, excel, google_sheets, pdf_word, csv_json, fechas_tareas, email_sms, imagenes, gui_automation
+- [Impractical Python Projects](https://drive.google.com/file/d/1V0B6kRW9oLKnqNTdprnOR92EoG-iNGZV/view?usp=drive_link) — Lee Vaughan (2019, en) — temas: proyectos, anagramas, cifrados, markov, geneticos, simulacion, monty_hall, finanzas_montecarlo, pygame, tkinter, matplotlib, benford, datos
+- [Python Crash Course (3rd ed.)](https://drive.google.com/file/d/1LjPlqi8tAlipYzdh-oIyoRSo6dt-glKR/view?usp=drive_link) — Eric Matthes (2023, en) — temas: fundamentos, pruebas, file_io, poo_basica, pygame, visualizacion_datos, matplotlib, plotly, apis, django, despliegue
+
+<!-- BOOKS_BASE:S16 END -->
+
+
+<!-- VIDEOS_BASE:S16 START -->
+### Videos base — S16
+
+- [50 Proyectos con Python en 5 Horas – ¡Aprende Programando!](https://www.youtube.com/watch?v=4iMkkZasTPw&t=23s) — temas: voz, traduccion, email, qr, web_scraping, bots, flask, excel, pruebas, juegos, seguridad
+
+<!-- VIDEOS_BASE:S16 END -->
+
+
+
+
+- pytest + httpx; logging/metrics. MP: suite CI local.
+
+### S17 — Docker & Compose
+
+<!-- BOOKS_BASE:S17 START -->
+### Lecturas base — S17
+
+- [Automate the Boring Stuff with Python (2nd ed.)](https://drive.google.com/file/d/1MPNb5Gq_24c7V9u0n-Sr_2gseUPvepH8/view?usp=drive_link) — Al Sweigart (2020, en) — temas: fundamentos, control_flujo, funciones, listas_diccionarios, strings, regex, file_io, organizacion_archivos, depuracion, web_scraping, excel, google_sheets, pdf_word, csv_json, fechas_tareas, email_sms, imagenes, gui_automation
+- [Fluent Python (2nd ed.)](https://drive.google.com/file/d/1Anyui3y29yq4qMrpWIlTBBg-ep3hHoby/view?usp=drive_link) — Luciano Ramalho (2022, en) — temas: data_model, secuencias, diccionarios_sets, unicode_bytes, dataclass, referencias_mutabilidad, funciones_primera_clase, type_hints, decoradores_closures, protocolos_abcs, herencia, sobrecarga_operadores, generadores_corutinas, with_match_else, concurrencia, asyncio, metaprogramacion
+- [Impractical Python Projects](https://drive.google.com/file/d/1V0B6kRW9oLKnqNTdprnOR92EoG-iNGZV/view?usp=drive_link) — Lee Vaughan (2019, en) — temas: proyectos, anagramas, cifrados, markov, geneticos, simulacion, monty_hall, finanzas_montecarlo, pygame, tkinter, matplotlib, benford, datos
+- [Python Crash Course (3rd ed.)](https://drive.google.com/file/d/1LjPlqi8tAlipYzdh-oIyoRSo6dt-glKR/view?usp=drive_link) — Eric Matthes (2023, en) — temas: fundamentos, pruebas, file_io, poo_basica, pygame, visualizacion_datos, matplotlib, plotly, apis, django, despliegue
+
+<!-- BOOKS_BASE:S17 END -->
+
+
+<!-- VIDEOS_BASE:S17 START -->
+### Videos base — S17
+
+- [50 Proyectos con Python en 5 Horas – ¡Aprende Programando!](https://www.youtube.com/watch?v=4iMkkZasTPw&t=23s) — temas: voz, traduccion, email, qr, web_scraping, bots, flask, excel, pruebas, juegos, seguridad
+- [Curso largo — Bro Code (12h, PyQt5 y APIs)](https://www.youtube.com/watch?v=ix9cRaBkVe0) — temas: fundamentos, decoradores, poo, file_io, fechas, threads, apis, pyqt5 · decoradores: 08:07:33, pyqt5_intro: 09:22:19
+- [PyQt5 (segmentos del curso largo)](https://www.youtube.com/watch?v=ix9cRaBkVe0) — temas: pyqt5, layouts, estilos, inputs, mini_apps · pyqt5_intro: 09:22:19
+
+<!-- VIDEOS_BASE:S17 END -->
+
+
+
+
+- Dockerfile multi-stage; compose (app+DB). MP: entorno reproducible.
+
+### S18 — CI/CD
+
+<!-- BOOKS_BASE:S18 START -->
+### Lecturas base — S18
+
+- [Fluent Python (2nd ed.)](https://drive.google.com/file/d/1Anyui3y29yq4qMrpWIlTBBg-ep3hHoby/view?usp=drive_link) — Luciano Ramalho (2022, en) — temas: data_model, secuencias, diccionarios_sets, unicode_bytes, dataclass, referencias_mutabilidad, funciones_primera_clase, type_hints, decoradores_closures, protocolos_abcs, herencia, sobrecarga_operadores, generadores_corutinas, with_match_else, concurrencia, asyncio, metaprogramacion
+- [Impractical Python Projects](https://drive.google.com/file/d/1V0B6kRW9oLKnqNTdprnOR92EoG-iNGZV/view?usp=drive_link) — Lee Vaughan (2019, en) — temas: proyectos, anagramas, cifrados, markov, geneticos, simulacion, monty_hall, finanzas_montecarlo, pygame, tkinter, matplotlib, benford, datos
+
+<!-- BOOKS_BASE:S18 END -->
+
+
+<!-- VIDEOS_BASE:S18 START -->
+### Videos base — S18
+
+- [50 Proyectos con Python en 5 Horas – ¡Aprende Programando!](https://www.youtube.com/watch?v=4iMkkZasTPw&t=23s) — temas: voz, traduccion, email, qr, web_scraping, bots, flask, excel, pruebas, juegos, seguridad
+- [Curso largo — Bro Code (12h, PyQt5 y APIs)](https://www.youtube.com/watch?v=ix9cRaBkVe0) — temas: fundamentos, decoradores, poo, file_io, fechas, threads, apis, pyqt5 · decoradores: 08:07:33, pyqt5_intro: 09:22:19
+- [PyQt5 (segmentos del curso largo)](https://www.youtube.com/watch?v=ix9cRaBkVe0) — temas: pyqt5, layouts, estilos, inputs, mini_apps · pyqt5_intro: 09:22:19
+
+<!-- VIDEOS_BASE:S18 END -->
+
+
+
+
+- GitHub Actions: lint+tests+build+push. MP: pipeline functional.
+
+### S19 — Realtime & Cache
+
+<!-- BOOKS_BASE:S19 START -->
+### Lecturas base — S19
+
+- [Impractical Python Projects](https://drive.google.com/file/d/1V0B6kRW9oLKnqNTdprnOR92EoG-iNGZV/view?usp=drive_link) — Lee Vaughan (2019, en) — temas: proyectos, anagramas, cifrados, markov, geneticos, simulacion, monty_hall, finanzas_montecarlo, pygame, tkinter, matplotlib, benford, datos
+- [Python Crash Course (3rd ed.)](https://drive.google.com/file/d/1LjPlqi8tAlipYzdh-oIyoRSo6dt-glKR/view?usp=drive_link) — Eric Matthes (2023, en) — temas: fundamentos, pruebas, file_io, poo_basica, pygame, visualizacion_datos, matplotlib, plotly, apis, django, despliegue
+
+<!-- BOOKS_BASE:S19 END -->
+
+
+<!-- VIDEOS_BASE:S19 START -->
+### Videos base — S19
+
+- [11 Proyectos con Interfaz Gráfica en Python](https://www.youtube.com/watch?v=RaEatqpugCk) — temas: tkinter, gui, ttk, formularios_excel, juegos, cronometro, tts
+- [50 Proyectos con Python en 5 Horas – ¡Aprende Programando!](https://www.youtube.com/watch?v=4iMkkZasTPw&t=23s) — temas: voz, traduccion, email, qr, web_scraping, bots, flask, excel, pruebas, juegos, seguridad
+- [FastAPI — CRUD, Routers, OAuth2/JWT, Mongo/Atlas](https://www.youtube.com/watch?v=_y9qQZXE24A) — temas: fastapi, crud, routers, auth, oauth2, jwt, mongodb, atlas
+- [Serie 4 · Video 3/4 — Tkinter GUI completo](https://www.youtube.com/watch?v=NqEtAaQsC9M) — temas: tkinter, gui, eventos, layouts, dialogos, treeview, notebook, ttk
+- [Tkinter completo — GUI widgets/eventos/layouts](https://www.youtube.com/watch?v=NqEtAaQsC9M) — temas: tkinter, widgets, eventos, layouts, ttk, dialogos, treeview, notebook
+- [Web con Python — UI/maquetación/estilos](https://www.youtube.com/watch?v=n2YrGsXJC6Y) — temas: ui, maquetacion, estilos, responsive, accesibilidad, deploy
+
+<!-- VIDEOS_BASE:S19 END -->
+
+
+
+
+- WebSockets o SSE; cache (Redis opc.). MP: tablero en vivo.
+
+### S20 — Integrador Web
+
+<!-- BOOKS_BASE:S20 START -->
+### Lecturas base — S20
+
+- [Impractical Python Projects](https://drive.google.com/file/d/1V0B6kRW9oLKnqNTdprnOR92EoG-iNGZV/view?usp=drive_link) — Lee Vaughan (2019, en) — temas: proyectos, anagramas, cifrados, markov, geneticos, simulacion, monty_hall, finanzas_montecarlo, pygame, tkinter, matplotlib, benford, datos
+- [Python Crash Course (3rd ed.)](https://drive.google.com/file/d/1LjPlqi8tAlipYzdh-oIyoRSo6dt-glKR/view?usp=drive_link) — Eric Matthes (2023, en) — temas: fundamentos, pruebas, file_io, poo_basica, pygame, visualizacion_datos, matplotlib, plotly, apis, django, despliegue
+
+<!-- BOOKS_BASE:S20 END -->
+
+
+<!-- VIDEOS_BASE:S20 START -->
+### Videos base — S20
+
+- [11 Proyectos con Interfaz Gráfica en Python](https://www.youtube.com/watch?v=RaEatqpugCk) — temas: tkinter, gui, ttk, formularios_excel, juegos, cronometro, tts
+- [50 Proyectos con Python en 5 Horas – ¡Aprende Programando!](https://www.youtube.com/watch?v=4iMkkZasTPw&t=23s) — temas: voz, traduccion, email, qr, web_scraping, bots, flask, excel, pruebas, juegos, seguridad
+- [FastAPI — CRUD, Routers, OAuth2/JWT, Mongo/Atlas](https://www.youtube.com/watch?v=_y9qQZXE24A) — temas: fastapi, crud, routers, auth, oauth2, jwt, mongodb, atlas
+- [Serie 4 · Video 3/4 — Tkinter GUI completo](https://www.youtube.com/watch?v=NqEtAaQsC9M) — temas: tkinter, gui, eventos, layouts, dialogos, treeview, notebook, ttk
+- [Tkinter completo — GUI widgets/eventos/layouts](https://www.youtube.com/watch?v=NqEtAaQsC9M) — temas: tkinter, widgets, eventos, layouts, ttk, dialogos, treeview, notebook
+
+<!-- VIDEOS_BASE:S20 END -->
+
+
+
+
+
+- API completa + OpenAPI + deploy. Salida: `git push`→CI/CD OK.
+
+---
+
+## Semanas 13–20 · Rama B — Escritorio + BD
+
+### S13 — Tkinter base (o PyQt5)
+
+- Ventanas, widgets, layout. MP: editor de notas.
+
+### S14 — Arquitectura GUI + Estado
+
+- MVC/MVP, eventos, _thread-safe_. MP: tarea larga + progreso.
+
+### S15 — Persistencia
+
+- SQLite/MySQL; DAO/ORM. MP: CRUD con filtros.
+
+### S16 — Validación & UX
+
+- Validaciones, diálogos, accesibilidad, i18n. MP: form robusto.
+
+### S17 — Integración externa
+
+- API `requests` desde GUI, timeouts y retries. MP: visor de clima/datos.
+
+### S18 — Reportes/Exportación
+
+- CSV/Excel/PDF. MP: export masiva no bloqueante.
+
+### S19 — Empaquetado
+
+- PyInstaller/Briefcase. MP: instalador `.exe/.app`.
+
+### S20 — Integrador Escritorio
+
+- App completa GUI+DB empaquetada. Salida: binario + guía.
+
+---
+
+## Semanas 21–24 · Integrador, Portafolio, Revisión
+
+### S21 — Capstone (Diseño)
+
+<!-- BOOKS_BASE:S21 START -->
+### Lecturas base — S21
+
+- [Python Crash Course (3rd ed.)](https://drive.google.com/file/d/1LjPlqi8tAlipYzdh-oIyoRSo6dt-glKR/view?usp=drive_link) — Eric Matthes (2023, en) — temas: fundamentos, pruebas, file_io, poo_basica, pygame, visualizacion_datos, matplotlib, plotly, apis, django, despliegue
+
+<!-- BOOKS_BASE:S21 END -->
+
+
+<!-- VIDEOS_BASE:S21 START -->
+### Videos base — S21
+
+- [11 Proyectos con Interfaz Gráfica en Python](https://www.youtube.com/watch?v=RaEatqpugCk) — temas: tkinter, gui, ttk, formularios_excel, juegos, cronometro, tts
+- [50 Proyectos con Python en 5 Horas – ¡Aprende Programando!](https://www.youtube.com/watch?v=4iMkkZasTPw&t=23s) — temas: voz, traduccion, email, qr, web_scraping, bots, flask, excel, pruebas, juegos, seguridad
+- [FastAPI — CRUD, Routers, OAuth2/JWT, Mongo/Atlas](https://www.youtube.com/watch?v=_y9qQZXE24A) — temas: fastapi, crud, routers, auth, oauth2, jwt, mongodb, atlas
+- [MySQL + Python + App GUI (CRUD por etapas)](https://www.youtube.com/watch?v=Ca6BOvW6ZMM) — temas: mysql, crud, backup, vistas, joins, customtkinter
+- [Serie 4 · Video 4/4 — MySQL + Python + App GUI (CRUD por etapas)](https://www.youtube.com/watch?v=Ca6BOvW6ZMM) — temas: mysql, crud, backup, vistas, joins, customtkinter
+
+<!-- VIDEOS_BASE:S21 END -->
+
+
+
+
+- Alcance, historias, arquitectura, riesgos.
+
+### S22 — Capstone (Construcción)
+
+<!-- BOOKS_BASE:S22 START -->
+### Lecturas base — S22
+
+- [Python Crash Course (3rd ed.)](https://drive.google.com/file/d/1LjPlqi8tAlipYzdh-oIyoRSo6dt-glKR/view?usp=drive_link) — Eric Matthes (2023, en) — temas: fundamentos, pruebas, file_io, poo_basica, pygame, visualizacion_datos, matplotlib, plotly, apis, django, despliegue
+
+<!-- BOOKS_BASE:S22 END -->
+
+
+<!-- VIDEOS_BASE:S22 START -->
+### Videos base — S22
+
+- [50 Proyectos con Python en 5 Horas – ¡Aprende Programando!](https://www.youtube.com/watch?v=4iMkkZasTPw&t=23s) — temas: voz, traduccion, email, qr, web_scraping, bots, flask, excel, pruebas, juegos, seguridad
+- [MySQL + Python + App GUI (CRUD por etapas)](https://www.youtube.com/watch?v=Ca6BOvW6ZMM) — temas: mysql, crud, backup, vistas, joins, customtkinter
+- [Serie 4 · Video 4/4 — MySQL + Python + App GUI (CRUD por etapas)](https://www.youtube.com/watch?v=Ca6BOvW6ZMM) — temas: mysql, crud, backup, vistas, joins, customtkinter
+- [Web avanzado — Docker, CORS, CI/CD, Supabase/PostgreSQL, realtime](https://www.youtube.com/watch?v=bNy8OZJfA6I) — temas: docker, cors, ci_cd, github_actions, infra, supabase, postgresql, realtime
+
+<!-- VIDEOS_BASE:S22 END -->
+
+
+
+
+- Base + pruebas. Entrega alpha.
+
+### S23 — Capstone (Endurecimiento)
+
+<!-- BOOKS_BASE:S23 START -->
+### Lecturas base — S23
+
+_(No se encontraron libros para esta semana en resources/books.yml)_
+<!-- BOOKS_BASE:S23 END -->
+
+
+<!-- VIDEOS_BASE:S23 START -->
+### Videos base — S23
+
+- [50 Proyectos con Python en 5 Horas – ¡Aprende Programando!](https://www.youtube.com/watch?v=4iMkkZasTPw&t=23s) — temas: voz, traduccion, email, qr, web_scraping, bots, flask, excel, pruebas, juegos, seguridad
+- [MySQL + Python + App GUI (CRUD por etapas)](https://www.youtube.com/watch?v=Ca6BOvW6ZMM) — temas: mysql, crud, backup, vistas, joins, customtkinter
+- [Serie 4 · Video 4/4 — MySQL + Python + App GUI (CRUD por etapas)](https://www.youtube.com/watch?v=Ca6BOvW6ZMM) — temas: mysql, crud, backup, vistas, joins, customtkinter
+- [Web avanzado — Docker, CORS, CI/CD, Supabase/PostgreSQL, realtime](https://www.youtube.com/watch?v=bNy8OZJfA6I) — temas: docker, cors, ci_cd, github_actions, infra, supabase, postgresql, realtime
+
+<!-- VIDEOS_BASE:S23 END -->
+
+
+
+
+- Pruebas, profiling, seguridad básica, docs, deploy/instalador.
+
+### S24 — Portafolio & Review
+
+<!-- BOOKS_BASE:S24 START -->
+### Lecturas base — S24
+
+_(No se encontraron libros para esta semana en resources/books.yml)_
+<!-- BOOKS_BASE:S24 END -->
+
+
+<!-- VIDEOS_BASE:S24 START -->
+### Videos base — S24
+
+- [50 Proyectos con Python en 5 Horas – ¡Aprende Programando!](https://www.youtube.com/watch?v=4iMkkZasTPw&t=23s) — temas: voz, traduccion, email, qr, web_scraping, bots, flask, excel, pruebas, juegos, seguridad
+- [MySQL + Python + App GUI (CRUD por etapas)](https://www.youtube.com/watch?v=Ca6BOvW6ZMM) — temas: mysql, crud, backup, vistas, joins, customtkinter
+- [Serie 4 · Video 4/4 — MySQL + Python + App GUI (CRUD por etapas)](https://www.youtube.com/watch?v=Ca6BOvW6ZMM) — temas: mysql, crud, backup, vistas, joins, customtkinter
+- [Web avanzado — Docker, CORS, CI/CD, Supabase/PostgreSQL, realtime](https://www.youtube.com/watch?v=bNy8OZJfA6I) — temas: docker, cors, ci_cd, github_actions, infra, supabase, postgresql, realtime
+
+<!-- VIDEOS_BASE:S24 END -->
+
+
+
+
+- Publica 3 piezas: capstone, toolbox, demo de la otra rama.
+- Code-review final + plan de mejora a 90 días.
+
+---
+
+## Prompts listos
+
+**Sesión diaria:** Actúa como mentor. Tema: {{tema}}. 1) teoría breve, 2) 3 ejercicios con _tests_ (pytest), 3) mini-proyecto 30’ con criterios, 4) quiz (5).  
+**Revisión de código:** Evalúa PEP8/claridad/robustez; 5 mejoras y diff de refactor; casos límite.  
+**Gate por bloque:** Valida criterios del bloque {{B#}}; si no, plan de refuerzo (1 semana).

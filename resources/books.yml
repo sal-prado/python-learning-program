@@ -1,0 +1,174 @@
+version: 1
+collections:
+    fundamentos:
+        - id: automate_boring_stuff_2e
+          title: "Automate the Boring Stuff with Python (2nd ed.)"
+          author: "Al Sweigart"
+          year: 2020
+          lang: "en"
+          url: "https://drive.google.com/file/d/1MPNb5Gq_24c7V9u0n-Sr_2gseUPvepH8/view?usp=drive_link"
+          access: private
+          topics:
+              - fundamentos
+              - control_flujo
+              - funciones
+              - listas_diccionarios
+              - strings
+              - regex
+              - file_io
+              - organizacion_archivos
+              - depuracion
+              - web_scraping
+              - excel
+              - google_sheets
+              - pdf_word
+              - csv_json
+              - fechas_tareas
+              - email_sms
+              - imagenes
+              - gui_automation
+          blocks: ["B1", "B2"]
+          weeks:
+              [
+                  "S1",
+                  "S2",
+                  "S3",
+                  "S4",
+                  "S6",
+                  "S7",
+                  "S8",
+                  "S13",
+                  "S14",
+                  "S15",
+                  "S16",
+                  "S17",
+              ]
+
+        - id: python_crash_course_3e
+          title: "Python Crash Course (3rd ed.)"
+          author: "Eric Matthes"
+          year: 2023
+          lang: "en"
+          url: "https://drive.google.com/file/d/1LjPlqi8tAlipYzdh-oIyoRSo6dt-glKR/view?usp=drive_link"
+          access: private
+          topics:
+              - fundamentos
+              - pruebas
+              - file_io
+              - poo_basica
+              - pygame
+              - visualizacion_datos
+              - matplotlib
+              - plotly
+              - apis
+              - django
+              - despliegue
+          blocks: ["B1", "B2", "B4", "B5A"]
+          weeks:
+              [
+                  "S1",
+                  "S2",
+                  "S3",
+                  "S4",
+                  "S5",
+                  "S6",
+                  "S7",
+                  "S8",
+                  "S15",
+                  "S16",
+                  "S17",
+                  "S19",
+                  "S20",
+                  "S21",
+                  "S22",
+              ]
+
+        - id: zelle_intro_cs_3e
+          title: "Python Programming: An Introduction to Computer Science (3rd ed.)"
+          author: "John M. Zelle"
+          year: 2017
+          lang: "en"
+          url: "https://drive.google.com/file/d/1kOxzFbyKPbWWu4ap1FUxUgH6ICpMd_YD/view?usp=drive_link"
+          access: private
+          topics:
+              - cs_intro
+              - diseno_algoritmico
+              - numeros
+              - graficos
+              - secuencias
+              - funciones
+              - decisiones
+              - bucles
+              - simulacion
+              - poo_basica
+              - colecciones
+              - diseno_oo
+              - recursion
+          blocks: ["B1", "B2", "B3"]
+          weeks: ["S1", "S2", "S3", "S4", "S5", "S6", "S7", "S8", "S9"]
+
+    intermedio_avanzado:
+        - id: fluent_python_2e
+          title: "Fluent Python (2nd ed.)"
+          author: "Luciano Ramalho"
+          year: 2022
+          lang: "en"
+          url: "https://drive.google.com/file/d/1Anyui3y29yq4qMrpWIlTBBg-ep3hHoby/view?usp=drive_link"
+          access: private
+          topics:
+              - data_model
+              - secuencias
+              - diccionarios_sets
+              - unicode_bytes
+              - dataclass
+              - referencias_mutabilidad
+              - funciones_primera_clase
+              - type_hints
+              - decoradores_closures
+              - protocolos_abcs
+              - herencia
+              - sobrecarga_operadores
+              - generadores_corutinas
+              - with_match_else
+              - concurrencia
+              - asyncio
+              - metaprogramacion
+          blocks: ["B3"]
+          weeks: ["S9", "S10", "S11", "S12", "S17", "S18"]
+
+        - id: impractical_python_projects
+          title: "Impractical Python Projects"
+          author: "Lee Vaughan"
+          year: 2019
+          lang: "en"
+          url: "https://drive.google.com/file/d/1V0B6kRW9oLKnqNTdprnOR92EoG-iNGZV/view?usp=drive_link"
+          access: private
+          topics:
+              - proyectos
+              - anagramas
+              - cifrados
+              - markov
+              - geneticos
+              - simulacion
+              - monty_hall
+              - finanzas_montecarlo
+              - pygame
+              - tkinter
+              - matplotlib
+              - benford
+              - datos
+          blocks: ["B3", "B4", "B5B"]
+          weeks:
+              [
+                  "S10",
+                  "S11",
+                  "S12",
+                  "S13",
+                  "S14",
+                  "S15",
+                  "S16",
+                  "S17",
+                  "S18",
+                  "S19",
+                  "S20",
+              ]

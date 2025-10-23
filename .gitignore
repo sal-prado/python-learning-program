@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.env
+dist/
+build/
+.idea/
+.vscode/
+
+# Calendario backups
+Calendario.md.bak-*
+Calendario.md.books.bak-*
